@@ -79,7 +79,7 @@
         var fd = new FormData(myform);
         try {
             $.ajax({
-                url: "http://indots.com/newsletter/",
+                url: "http://integrations.blick.mx/indots/newsletter/",
                 data: {email: myform.value},
                 type: 'POST',
                 success: function (result) {
