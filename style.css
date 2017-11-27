@@ -179,7 +179,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: 'FuturaStd-Book';
+	font-family: "Avenir";
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -197,7 +197,7 @@ input.suscribe:focus {
     outline: 0px solid #084c8b !important;
 }
 body {
-	font-family: 'Futura-Std-Book';
+	font-family: "Avenir";
 	margin: 0;
 }
 
@@ -489,7 +489,7 @@ h1,
 	color: #343434;
 	font-size: 30px !important;
 	line-height: 1.2;
-	font-family: 'FuturaStd-Heavy';
+	font-family: 'Avenir';
 }
 
 h2,
@@ -507,7 +507,7 @@ h3,
 	font-size: 25px;
 	font-size: 1.5625rem;
 	line-height: 1.2;
-	font-family: 'Futura-Std';
+	font-family: 'Avenir';
 	color: #084c8b;
 }
 
@@ -1763,12 +1763,12 @@ a:hover {
 .entry-content,
 .entry-summary {
 	margin: 0;
-	font-family: 'Futura-Std-Book';
+	font-family: 'Avenir';
 }
 
 .entry-content {
 	color: #575656;
-	font-family: 'Futura-Std-Book';
+	font-family: 'Avenir';
 }
 
 .page-content {
