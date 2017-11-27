@@ -21,6 +21,16 @@ main.site-main, aside.widget-area, .widget-title, .entry-content{
 .entry-content, .entry-footer{
   color: #9b9b9b;
 }
+.entry-content{
+  font-size: 15px;
+  line-height: 1.33;
+}
+.entry-content a.read-more{
+  font-size: 16px;
+  color: #7bbaaf;
+  text-decoration: underline;
+  font-weight: 700;
+}
 .blog .content-area .hentry{
   padding-top: 0;
 }
@@ -49,7 +59,7 @@ input[class='sendNewsletter']:focus 		{ outline:none; }
 /* LABEL ======================================= */
 label[class='onlyNewsletter'] 				 {
   color:#9b9b9b;
-  font-family: FuturaStd-Book;
+  font-family: "Avenir";
   font-size: 17px;
   font-weight:normal;
   position:absolute;
@@ -68,7 +78,7 @@ textarea:focus ~ label.custom-top, textarea:valid ~ label.custom-top{
 input[class='sendNewsletter']:focus ~ label, input[class='sendNewsletter']:valid ~ label, textarea:focus ~ label, textarea:valid ~ label{
   top:-10px;
   font-size:14px;
-  font-family: FuturaStd-Book;
+  font-family: "Avenir";
   color:#084c8b;
 }
 
@@ -193,12 +203,12 @@ span[for="navbar-trigger"] {
 }
 .entry-title > a{
   color: #084c8b !important;
-  font-family: 'Futura-Std-Book';
+  font-family: 'Avenir';
 }
 
 .entry-title > a:hover{
   color: #084c8b !important;
-  font-family: 'Futura-Std-Book';
+  font-family: 'Avenir';
 }
 .entry-header  {
   height: 257px !important;
@@ -225,7 +235,7 @@ span[for="navbar-trigger"] {
   padding-left: 14px;
   margin-top: -0.1em;
   margin-left: 5px;
-  font-family: "Montserrat Regular";
+  font-family: "Avenir";
   font-size: 17px;
   line-height: 80px;
   vertical-align: middle;
@@ -262,7 +272,7 @@ span[for="navbar-trigger"] {
     margin-top: 1.75rem;
   }
   span[for="navbar-trigger"] {
-    display: inline-block;s
+    display: inline-block;
     transition: color 0.3s;
     position: absolute !important;
     right: 0 !important;
