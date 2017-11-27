@@ -27,6 +27,7 @@
             </p>
             <p class="footer-join-principal">
                 Síguenos en:
+                <br class="showOn-mobil">
                 <a href="" target='_blank' class="fa fa-instagram"></a>
                 <a href="" target='_blank' class="fa fa-facebook-square"></a>
                 <a href="" target='_blank' class="fa fa-twitter"></a>
@@ -78,7 +79,7 @@
         var fd = new FormData(myform);
         try {
             $.ajax({
-                url: "http://alegpaez.com/newsletter/",
+                url: "http://indots.com/newsletter/",
                 data: {email: myform.value},
                 type: 'POST',
                 success: function (result) {
