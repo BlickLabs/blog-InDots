@@ -13,95 +13,62 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.4.1/packaged/jquery.noty.packaged.min.js'></script>
 </div><!-- #content -->
 
-<footer class="site-footer">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 text-left">
-            <div class="footer-indots-logo">
-                <img src="<?php echo get_template_directory_uri() . '/img/icons/white-indots-logo.png' ?>"
-                     alt="InDots"/>
-            </div>
-            <p class="footer-social-terms">
-                © InDots, 2017.
-                <br>
-                Todos los derechos reservados
-            </p>
-            <p class="footer-join-principal">
-                Síguenos en:
-                <br class="showOn-mobil">
-                <a href="" target='_blank' class="fa fa-instagram"></a>
-                <a href="" target='_blank' class="fa fa-facebook-square"></a>
-                <a href="" target='_blank' class="fa fa-twitter"></a>
-            </p>
-            <p class="footer-join-principal">
-                Escríbenos a:
-                <a href="mailto:contacto@indots.com" class="">contacto@indots.com</a>
-            </p>
-        </div>
-        <div class="col-md-4 col-sm-12 ">
-            <p class="footer-info center">
-                Suscríbete a nuestro Newsletter
-            </p>
-            <form class="form footer_form" onsubmit="sendNewsletterEmail(); return false;" id='getEmailByPerson'>
-                <div class="input_text">
-                    <input required type="form_sub" class="form-control1" id="correo"
-                           placeholder="Correo electrónico">
-                </div>
-                <button class="indots-button green" type="submit" name="submit">Suscribirme</button>
-            </form>
-        </div>
+<footer>
+  <div class="footer-div">
+    <div class="footer-left-column">
+      <img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png'?>" alt="Logo" class="footer-logo" />
+      <div class="footer-copyright-info">
+        Derechos reservados,<br>
+        Indots 2017
+      </div>
     </div>
+    <hr class="footer-divider">
+    <div class="footer-right-column">
+      <div class="footer-section-links-container">
+        <div class="footer-column-content">
+          <a href="index.html" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular">INICIO</span>
+          </a>
+          <a href="que-es-indots.html" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular">QUÉ ES INDOTS</span>
+          </a>
+          <a href="nuestros-cursos.html" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular">NUESTROS CURSOS</span>
+          </a>
+          <a href="flash-indots.html" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular">VIDEOS</span>
+          </a>
+        </div>
+        <div class="footer-column-content">
+          <a href="" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular">INDOTS VERDE</span>
+          </a>
+          <a href="http://blog.indots.getmore.mx/" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular" style="font-weight: bold; color: #735d72;">BLOG</span>
+          </a>
+          <a href="contacto.html" class="footer-link-anchor">
+            <span class="footer-link indots-font-cabin-regular"">CONTACTO</span>
+          </a>
+          <a href="" class="footer-link-anchor">
+            <span class="footer-email indots-font-cabin-regular">contacto@indots.com</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-icons-container">
+        <a href="https://www.instagram.com/indotslatam/" class="footer-link-anchor" target="_blank">
+          <img src="<?php echo get_template_directory_uri() . '/img/icons/instagram-logo.png' ?>" class="footer-social-network-icon">
+        </a>
+        <a href="https://www.facebook.com/InDotsLatam/" class="footer-link-anchor" target="_blank">
+          <img src="<?php echo get_template_directory_uri() . '/img/icons/facebook-logo.png' ?>" class="footer-social-network-icon">
+        </a>
+        <a href="https://twitter.com/indotslatam" class="footer-link-anchor" target="_blank">
+          <img src="<?php echo get_template_directory_uri() . '/img/icons/twitter-logo.png' ?>" class="footer-social-network-icon">
+        </a>
+      </div>
+    </div>
+  </div>
 </footer>
+
 </div><!-- #page -->
-
-<?php wp_footer(); ?>
-<script src="<?php echo get_template_directory_uri() . '/lib/js/jquery.min.js' ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/js/menu.js' ?>"></script>
-<script src="<?php echo get_template_directory_uri() . '/js/newsletter.js' ?>"></script>
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.7";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-<script>
-    function sendNewsletterEmail(params) {
-        var myform, formElement;
-        if (params) {
-            myform = document.getElementById("getEmailByPersonRight");
-            formElement = document.getElementById("newsLetterWordpress");
-        } else {
-            myform = document.getElementById("correo");
-            formElement = document.getElementById("getEmailByPerson");
-        }
-        var fd = new FormData(myform);
-        try {
-            $.ajax({
-                url: "http://integrations.blick.mx/indots/newsletter/",
-                data: {email: myform.value},
-                type: 'POST',
-                success: function (result) {
-                    // do something with the result
-                    event.preventDefault();
-                    if (result.status === "subscribed") {
-                        formElement.reset();
-                        noty({text: 'Listo, espera las últimas noticias'});
-                    } else {
-                        if (result.title === "Member Exists") {
-                            noty({text: 'El correo ya existe, intenta con otro'});
-                        } else {
-                            noty({text: 'El correo no es válido, intenta con otro'});
-                        }
-                    }
-                }
-            });
-        } catch (e) {
-            noty({text: 'Sucedió un error, intentalo de nuevo más tarde'});
-        }
-
-    }
-</script>
 </body>
 </html>

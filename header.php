@@ -27,118 +27,93 @@
 </head>
 
 <body <?php body_class(); ?>>
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script>
 
-    $(document).ready(function () {
-        /*$("body").click(function (event) {
-            console.log(event.target, 'target onready--------');
-            if (event.target.id === 'bars') {
-                slide();
-            } else {
-                if (event.target.tagName !== 'UL')
-                    close();
-            }
-        });*/
-        $("body").bind("touchstart", function (event) {
-            console.log(event.target, 'target ontouchstart--------');
-            if (event.target.id === 'bars') {
-                console.log('ontouchstart if');
-                slide();
-            } else {
-                console.log('ontouchstart else');
-                if (event.target.tagName !== 'UL')
-                    close();
-            }
-        });
-    });
-
-    function close() {
-        console.log('close');
-        if (document.querySelector('#hamburgerMenu').classList.contains('showMenu')) {
-            console.log('has class showMenu');
-            setTimeout(function () {
-                document.querySelector('#hamburgerMenu').classList.remove('showMenu');
-                document.querySelector('#bars').classList.remove('hiddeOnMobil');
-                document.querySelector('#hamburgerMenu').classList.remove('open-hamburgerMenu');
-            }, 000);
-        }
-    }
-
-    function slide() {
-        console.log('slide');
-        if (document.querySelector('#hamburgerMenu').classList.contains('showMenu')) {
-            console.log('slide if');
-
-            setTimeout(function () {
-                document.querySelector('#hamburgerMenu').classList.remove('showMenu');
-                document.querySelector('#bars').classList.remove('hiddeOnMobil');
-                document.querySelector('#hamburgerMenu').classList.remove('open-hamburgerMenu');
-            }, 000);
-        } else {
-            console.log('slide else');
-            document.querySelector('#hamburgerMenu').classList.add('showMenu');
-            document.querySelector('#hamburgerMenu').classList.add('open-hamburgerMenu');
-            document.querySelector('#bars').classList.add('hiddeOnMobil');
-        }
-    }
-</script>
-<div id="page" class="site">
-    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'shoreditch'); ?></a>
-    <header class="header-navbar" id="principalHeader">
-        <input type="checkbox" id="navbar-trigger"/>
-        <span class="fa fa-bars hiddeOnWeb showMovil" id="bars" for="navbar-trigger"
-              style='position: fixed;right: 40px;color: white;top: 35px;'></span>
-        <a href="http://indots.com/" class="centerLogo" id="logo">
-            <img class="header-navbar-logo"
-                 src="<?php echo get_template_directory_uri() . '/img/icons/indots-logo.png' ?>"/>
+  <nav class="site-navbar">
+    <div class="site-navbar__desktop-logo-container">
+      <a href="index.html">
+        <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo">
+      </a>
+    </div>
+    <div class="site-navbar__menu-container">
+      <div class="site-navbar__mobile-logo-container">
+        <a href="index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo"></a>
+      </div>
+      <div class="site-navbar__menu">
+        <a href="index.html" class="site-navbar__menu-link menu-link">
+          <div class="diamond"></div>
+          <span class="indots-font-cabin-regular">Inicio</span>
         </a>
-        <ul class="header-navbar-list animated" id="hamburgerMenu">
-            <li id="imgMenu">
-                <img class="img-blog-menu"
-                     src="<?php echo get_template_directory_uri() . '/img/icons/white-indots-logo.png' ?>">
-            </li>
-            <li class="header-navbar-list-item" hcolor="white">
-                <a class="header-navbar-list-item-link" href="http://indots.com">
-                    Inicio
-                </a>
-            </li>
-            <li class="header-navbar-list-item" hcolor="white">
-                <a class="header-navbar-list-item-link" href="http://indots.com/recetas/">
-                    Qué es InDots
-                </a>
-            </li>
-            <li class="header-navbar-list-item" hcolor="white">
-                <a class="header-navbar-list-item-link" href="http://indots.com/videos/">
-                    Nuestros cursos
-                </a>
-            </li>
-            <li class="header-navbar-list-item" hcolor="white">
-                <a class="header-navbar-list-item-link flash-indots" href="http://indots.com/servicios/">
-                    Flash InDots
-                </a>
-            </li>
-            <li class="header-navbar-list-item" hcolor="white">
-                <a class="header-navbar-list-item-link" href="http://indots.com/acerca/">
-                    Contacto
-                </a>
-            </li>
-            <li class="header-navbar-list-item select" hcolor="white">
-                <a class="header-navbar-list-item-link" href="http://blog.indots.com/">
-                    Blog
-                </a>
-            </li>
-            <li class="header-navbar-list-item" hcolor="white">
-                <a class="header-navbar-list-item-link" href="http://indots.com/contacto/">
-                    Iniciar Sesión
-                </a>
-            </li>
-        </ul>
-
-    </header>
+        <a href="que-es-indots.html" class="site-navbar__menu-link menu-link">
+          <div class="diamond"></div>
+          <span class="indots-font-cabin-regular">Qué es indots</span>
+        </a>
+        <a href="nuestros-cursos.html" class="site-navbar__menu-link menu-link">
+          <div class="diamond"></div>
+          <span class="indots-font-cabin-regular">Nuestros cursos</span>
+        </a>
+        <a href="flash-indots.html" class="site-navbar__menu-link menu-link">
+          <div class="diamond"></div>
+          <span class="indots-font-cabin-regular">Videos</span>
+        </a>
+        <a href="" class="site-navbar__menu-link menu-link">
+          <div class="diamond"></div>
+          <span class="indots-font-cabin-regular">Indots verde</span>
+        </a>
+        <a href="http://blog.indots.getmore.mx/" class="site-navbar__menu-link menu-link link-active">
+          <div class="diamond show-diamond"></div>
+          <span class="indots-font-cabin-regular">Blog</span>
+        </a>
+        <a href="contacto.html" class="site-navbar__menu-link menu-link">
+          <div class="diamond"></div>
+          <span class="indots-font-cabin-regular">Contacto</span>
+        </a>
+      </div>
+    </div>
+    <div data-attribute="" class="navbar-hamburguer-visibility"  id="hamburgerMenu">
+      <div class="navbar-hamburguer" data-attribute="">
+        <div class="align-content-hamburguer" data-attribute="">
+          <div class="line-hamburguer-base line-hamburguer-lg" data-attribute=""></div>
+          <div class="line-hamburguer-base line-hamburguer-lg margin-vertical-4px" data-attribute=""></div>
+          <div class="line-hamburguer-base line-hamburguer-lg" data-attribute=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
+      <div class="hamburger-menu-header" data-attribute="">
+        <div class="" data-attribute="">
+          <a href="index.html" data-attribute="">
+            <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" data-attribute="">
+          </a>
+        </div>
+        <div class="hamburger-close-container" id="hideHamburger">
+          <img class="hamburger-close" src="<?php echo get_template_directory_uri() . '/img/icons/close-menu.png' ?>">
+        </div>
+      </div>
+      <div class="hamburger-menu-body" data-attribute="">
+        <a data-attribute="" href="index.html" class="hamburger-menu-link">
+          <span class="hamburger-text indots-font-cabin-regular">Inicio</span>
+        </a>
+        <a data-attribute="" href="que-es-indots.html" class="hamburger-menu-link">
+          <span class="hamburger-text indots-font-cabin-regular">Qué es indots</span>
+        </a>
+        <a data-attribute="" href="nuestros-cursos.html" class="hamburger-menu-link">
+          <span class="hamburger-text indots-font-cabin-regular">Nuestros cursos</span
+        </a>
+        <a data-attribute="" href="flash-indots.html" class="hamburger-menu-link">
+          <span class="hamburger-text indots-font-cabin-regular">Videos</span>
+        </a>
+        <a data-attribute="" href="" class="hamburger-menu-link">
+          <span class="hamburger-text indots-font-cabin-regular">Indots verde</span>
+        </a>
+        <a data-attribute="" href="http://blog.indots.getmore.mx/" class="hamburger-menu-link link-active-mobile">
+          <span class="hamburger-text indots-font-cabin-regular">Blog</span>
+        </a>
+        <a data-attribute="" href="contacto.html" class="hamburger-menu-link">
+          <span class="hamburger-text indots-font-cabin-regular">Contacto</span>
+        </a>
+      </div>
+    </div>
+  </nav>
     <div id="content" class="site-content">
         <?php if (get_header_image()) : ?>
             <div class="header-image">
@@ -148,3 +123,49 @@
                 </a>
             </div><!-- .header-image -->
         <?php endif; // End header image check. ?>
+
+<script type="text/javascript">
+  function showMenu() {
+    document.querySelector('#menuContainer').style.width = '85%';
+    document.querySelector('#hamburgerMenu').style.display = 'none';
+  }
+
+  function hideMenu() {
+    document.querySelector('#menuContainer').style.width = '0%';
+    document.querySelector('#hamburgerMenu').style.display = 'inline';
+  }
+
+  window.addEventListener('click', function(e) {
+    if (!e.target.dataset.hasOwnProperty('attribute')) {
+      hideMenu();
+    }
+  });
+
+  /*Events of touchstart to mobile version*/
+
+  var showHamburger = document.querySelector('#hamburgerMenu');
+
+  showHamburger.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    showMenu();
+  });
+
+  var hideHamburger = document.querySelector('#hideHamburger');
+
+  hideHamburger.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    hideMenu();
+  });
+
+  /* Events of click to desktop version*/
+
+  showHamburger.addEventListener('click', function(e) {
+    e.preventDefault();
+    showMenu();
+  });
+
+  hideHamburger.addEventListener('click', function(e) {
+    e.preventDefault();
+    hideMenu();
+  });
+</script>
