@@ -14,12 +14,12 @@
 		<?php if ( ! has_post_thumbnail() ) : ?>
 			<header class="entry-header" <?php shoreditch_background_image(); ?>>
 				<div class="entry-header-wrapper">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<?php the_title( '<h1 class="entry-title indots-font-LibreBaskerville-regular">', '</h1>' ); ?>
 				</div><!-- .entry-header-wrapper -->
 			</header><!-- .entry-header -->
 		<?php endif; ?>
 
-		<div class="entry-content">
+		<div class="entry-content indots-font-cabin-regular">
 			<?php
 			the_content();
 
@@ -32,7 +32,7 @@
 				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 			?>
-		</div><!-- .entry-content -->
+		</div><!-- .entry-content indots-font-cabin-regular -->
 
 		<?php
 		edit_post_link(
