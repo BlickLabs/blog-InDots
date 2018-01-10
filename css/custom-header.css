@@ -14,7 +14,7 @@ input[type="submit"]{
   font-weight: 500;
   line-height: 1.17;
   color: #575656;
-  margin: 0;
+  margin: 0 0 15px 0;
 }
 aside.widget-area .input_text input, aside .input_text input::placeholder{
   color: #9b9b9b !important;
@@ -52,7 +52,7 @@ main.site-main, aside.widget-area, .widget-title, .entry-content, h3{
 .blog-title{
   text-align: center;
   font-size: 2.25rem !important;
-  color: #00577b;
+  color: #a7d4ce;
   margin-top: 3.75rem;
   width: 100%;
 }
@@ -88,7 +88,7 @@ textarea:focus ~ label.custom-top, textarea:valid ~ label.custom-top{
 input[class='sendNewsletter']:focus ~ label, input[class='sendNewsletter']:valid ~ label, textarea:focus ~ label, textarea:valid ~ label{
   top:-10px;
   font-size:14px;
-  color:#084c8b;
+  color:#a7d4ce;
 }
 
 /* BOTTOM BARS ================================= */
@@ -99,7 +99,7 @@ input[class='sendNewsletter']:focus ~ label, input[class='sendNewsletter']:valid
   width:0;
   bottom:1px;
   position:absolute;
-  background:#084c8b;
+  background:#a7d4ce;
   transition:0.2s ease all;
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
@@ -138,15 +138,15 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-	from { background:#084c8b; }
+	from { background:#a7d4ce; }
   to 	{ width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-	from { background:#084c8b; }
+	from { background:#a7d4ce; }
   to 	{ width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-	from { background:#084c8b; }
+	from { background:#a7d4ce; }
   to 	{ width:0; background:transparent; }
 }
 
@@ -211,11 +211,11 @@ span[for="navbar-trigger"] {
   vertical-align: middle;
 }
 .entry-title > a{
-  color: #084c8b !important;
+  color: #a7d4ce !important;
 }
 
 .entry-title > a:hover{
-  color: #084c8b !important;
+  color: #a7d4ce !important;
 }
 .entry-header  {
   height: 257px !important;
@@ -248,7 +248,7 @@ span[for="navbar-trigger"] {
 }
 .select,
 .header-navbar-list-item:hover{
-  border-bottom: 4px solid #00577b;
+  border-bottom: 4px solid #a7d4ce;
 }
 .header-navbar-list-item-white {
   background-color: #fff;
@@ -309,7 +309,7 @@ span[for="navbar-trigger"] {
     top: 50%;
     transform: translateY(-50%);
     z-index: 3;
-    color: #00577b;
+    color: #a7d4ce;
   }
   .select {
     border-bottom: none !important;
@@ -360,7 +360,7 @@ span[for="navbar-trigger"] {
     top: 0px;
     width: 75%;
     right: -75%;
-    background: #00577b;
+    background: #a7d4ce;
     text-align: left;
   }
   .open-hamburgerMenu{
