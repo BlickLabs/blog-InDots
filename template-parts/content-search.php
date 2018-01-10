@@ -26,7 +26,7 @@
 					<?php
 					shoreditch_entry_meta();
 
-					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+					the_title( '<h2 class="entry-title indots-font-LibreBaskerville-regular"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 					?>
 				</div><!-- .entry-header-wrapper -->
 			</header><!-- .entry-header -->
