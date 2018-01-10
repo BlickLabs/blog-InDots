@@ -14,14 +14,14 @@
 		<header class="entry-header">
 			<?php
 			if ( $post->post_parent > 0 ) {
-				the_title( '<h2 class="entry-title">', '</h2>' );
+				the_title( '<h2 class="entry-title indots-font-LibreBaskerville-regular">', '</h2>' );
 			} else {
-				the_title( '<h1 class="entry-title">', '</h1>' );
+				the_title( '<h1 class="entry-title indots-font-LibreBaskerville-regular">', '</h1>' );
 			}
 			?>
 		</header><!-- .entry-header -->
 
-		<div class="entry-content">
+		<div class="entry-content indots-font-cabin-regular">
 			<?php
 			the_content();
 
@@ -34,7 +34,7 @@
 				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 			?>
-		</div><!-- .entry-content -->
+		</div><!-- .entry-content indots-font-cabin-regular-->
 
 		<?php
 		edit_post_link(

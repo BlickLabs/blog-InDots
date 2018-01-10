@@ -14,7 +14,7 @@ $jetpack_options = get_theme_mod( 'jetpack_testimonials' ); ?>
 	<?php if ( isset( $jetpack_options['featured-image'] ) && '' != $jetpack_options['featured-image'] ) : ?>
 		<div class="entry-hero" <?php shoreditch_testimonials_image(); ?>>
 			<div class="entry-hero-wrapper">
-				<?php shoreditch_testimonials_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				<?php shoreditch_testimonials_title( '<h1 class="entry-title indots-font-LibreBaskerville-regular">', '</h1>' ); ?>
 			</div><!-- .entry-hero-wrapper -->
 		</div><!-- .entry-hero -->
 	<?php endif; ?>
@@ -25,7 +25,7 @@ $jetpack_options = get_theme_mod( 'jetpack_testimonials' ); ?>
 			<header class="page-header">
 				<?php
 				if ( ! isset( $jetpack_options['featured-image'] ) || '' == $jetpack_options['featured-image'] ) {
-					shoreditch_testimonials_title( '<h1 class="page-title">', '</h1>' );
+					shoreditch_testimonials_title( '<h1 class="page-title indots-font-LibreBaskerville-regular">', '</h1>' );
 				}
 
 				shoreditch_testimonials_content( '<div class="taxonomy-description">', '</div>' );

@@ -16,7 +16,7 @@
 			</header><!-- .entry-header -->
 			<div>
 				<?php
-				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+				the_title( '<h2 class="entry-title indots-font-LibreBaskerville-regular"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 				?>
 			</div>
 			<div class="entry-summary">

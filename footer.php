@@ -13,7 +13,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.4.1/packaged/jquery.noty.packaged.min.js'></script>
 </div><!-- #content -->
 
-<footer>
+<footer class="blog-footer">
   <div class="footer-div">
     <div class="footer-left-column">
       <img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png'?>" alt="Logo" class="footer-logo" />
@@ -40,7 +40,7 @@
           </a>
         </div>
         <div class="footer-column-content">
-          <a href="" class="footer-link-anchor">
+          <a href="http://indotsverde.com" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular">INDOTS VERDE</span>
           </a>
           <a href="http://blog.indots.getmore.mx/" class="footer-link-anchor">
@@ -49,7 +49,7 @@
           <a href="contacto.html" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular"">CONTACTO</span>
           </a>
-          <a href="" class="footer-link-anchor">
+          <a href="mailto:contacto@indts.com" class="footer-link-anchor">
             <span class="footer-email indots-font-cabin-regular">contacto@indots.com</span>
           </a>
         </div>

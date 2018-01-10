@@ -17,7 +17,7 @@
 		<header class="entry-header">
 			<div class="entry-header-wrapper">
 	<?php
-		the_title( '<h1 class="entry-title">', '</h1>' );
+		the_title( '<h1 class="entry-title indots-font-LibreBaskerville-regular">', '</h1>' );
 	 ?>
 			</div><!-- .entry-header-wrapper -->
 		</header><!-- .entry-header -->
@@ -27,7 +27,7 @@
 		</header><!-- .entry-header -->
 		<div class="entry-header-wrapper">
 <?php
-	the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+	the_title( '<h2 class="entry-title indots-font-LibreBaskerville-regular"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
  ?>
 		</div><!-- .entry-header-wrapper -->
 	<?php
@@ -35,7 +35,7 @@
 		<header class="entry-header">
 			<div class="entry-header-wrapper">
 	<?php
-		the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		the_title( '<h2 class="entry-title indots-font-LibreBaskerville-regular"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 	 ?>
 			</div><!-- .entry-header-wrapper -->
 		</header><!-- .entry-header -->
@@ -44,7 +44,7 @@
 	?>
 
 
-		<div class="entry-content">
+		<div class="entry-content indots-font-cabin-regular">
 			<?php
 			if ( is_single() ) {
 				the_content( sprintf(

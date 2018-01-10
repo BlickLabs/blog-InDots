@@ -55,7 +55,7 @@
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Videos</span>
         </a>
-        <a href="" class="site-navbar__menu-link menu-link">
+        <a href="http://indotsverde.com" class="site-navbar__menu-link menu-link">
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Indots verde</span>
         </a>
@@ -102,7 +102,7 @@
         <a data-attribute="" href="flash-indots.html" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Videos</span>
         </a>
-        <a data-attribute="" href="" class="hamburger-menu-link">
+        <a data-attribute="" href="http://indotsverde.com" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Indots verde</span>
         </a>
         <a data-attribute="" href="http://blog.indots.getmore.mx/" class="hamburger-menu-link link-active-mobile">

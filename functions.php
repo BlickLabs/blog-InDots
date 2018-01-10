@@ -100,7 +100,7 @@ function shoreditch_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget widget-small %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
+		'before_title'  => '<h2 class="widget-title indots-font-LibreBaskerville-regular">',
 		'after_title'   => '</h2>',
 	) );
 
@@ -110,7 +110,7 @@ function shoreditch_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
+		'before_title'  => '<h2 class="widget-title indots-font-LibreBaskerville-regular">',
 		'after_title'   => '</h2>',
 	) );
 
@@ -120,7 +120,7 @@ function shoreditch_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget widget-small %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
+		'before_title'  => '<h2 class="widget-title indots-font-LibreBaskerville-regular">',
 		'after_title'   => '</h2>',
 	) );
 }

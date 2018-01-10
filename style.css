@@ -62,118 +62,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 --------------------------------------------------------------*/
 
 /* FONTS */
-@font-face {
-    font-famil: : 'Avenir';
-    font-style: normal;
-    font-weight: 500;
-    src: url('fonts/AvenirLTStd-Medium.woff');
-}
 
-@font-face {
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 700;
-    src: url('fonts/AvenirLTStd-Black.woff');
-}
-
-@font-face {
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 300;
-    src: url('fonts/AvenirLTStd-Light.woff');
-}
-
-@font-face {
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/AvenirLTStd-Roman.woff');
-}
-@font-face {
-	font-family: 'Avenir';
-	font-style: normal;
-	font-weight: 700;
-	src: url('../fonts/AvenirLTStd-Book.woff') format('woff');
-}
-@font-face {
-	font-family: 'Avenir';
-	font-style: normal;
-	font-weight: 900;
-	src: url('../fonts/AvenirLTStd-Heavy.woff') format('woff');
-}
-@font-face {
-	font-family: 'Avenir';
-	font-style: italic;
-	font-weight: 600;
-	src: url('../fonts/AvenirLTStd-BookOblique.woff') format('woff');
-}
-
-
-
-@font-face{
-	font-family:'Montserrat Regular';
-	src:local('fonts/Montserrat-Regular'), url(fonts/Montserrat-Regular.woff) format('woff');
-	font-weight:400;
-	font-style:normal
-}
-@font-face{
-	font-family:'Montserrat Light';
-	src: url('fonts/Montserrat-Light.otf');
-	font-weight:300;
-	font-style:normal
-}
-@font-face{
-	font-family:'Montserrat Thin';
-	src: url('fonts/Montserrat-Thin.otf');
-	font-weight:100;
-	font-style:normal
-}
-@font-face {
-	font-family: 'Futura-Std-Bold';
-	src: url('fonts/Futura Std Bold.otf');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Futura-Std';
-	src: url('fonts/FuturaStd-Light.woff');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'FuturaStd-Heavy';
-	src: url('fonts/FuturaStd-Heavy 2.otf');
-	font-weight: 500;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Futura-Std-Book';
-	src: url('fonts/FuturaStd-Book.otf');
-	font-weight: 500;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'FuturaStd-Medium';
-	src: url('fonts/FuturaStd-Medium2.otf');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Colaborate-Medium';
-	src: url('fonts/ColabMed.otf');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Colaborate-Regular';
-	src: url('fonts/ColabReg.otf');
-	font-weight: 500;
-	font-style: normal;
-}
 
 
 /*--------------------------------------------------------------
@@ -330,7 +219,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 }
 
 .indots-font-LibreBaskerville-regular {
-  font-family: 'LibreBaskerville';
+  font-family: 'LibreBaskerville' !important;
   font-style: normal;
   font-weight: 400;
 }
@@ -340,7 +229,6 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: "Avenir";
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -358,7 +246,6 @@ input.suscribe:focus {
     outline: 0px solid #084c8b !important;
 }
 body {
-	font-family: "Avenir";
 	margin: 0;
 }
 
@@ -650,7 +537,6 @@ h1,
 	color: #343434;
 	font-size: 30px !important;
 	line-height: 1.2;
-	font-family: 'Avenir';
 }
 
 h2,
@@ -668,7 +554,6 @@ h3,
 	font-size: 25px;
 	font-size: 1.5625rem;
 	line-height: 1.2;
-	font-family: 'Avenir';
 	color: #084c8b;
 }
 
@@ -1268,6 +1153,12 @@ label {
 
 .site-content-wrapper .widget-area a:not(:hover) {
 	color: #575656;
+	font-family: 'Cabin';
+}
+
+.site-content-wrapper .widget-area a:hover {
+	color: #084c8b;
+  font-family: 'Cabin';
 }
 
 .widget-footer-area {
@@ -1924,12 +1815,10 @@ a:hover {
 .entry-content,
 .entry-summary {
 	margin: 0;
-	font-family: 'Avenir';
 }
 
 .entry-content {
 	color: #575656;
-	font-family: 'Avenir';
 }
 
 .page-content {
@@ -2332,6 +2221,47 @@ a:hover {
 	font-size: 0.8125rem;
 	line-height: 1.3847;
 	padding: 0.1875rem 0;
+	font-family: 'Cabin';
+}
+
+.comment-content {
+	font-family: 'Cabin';
+}
+
+.comment-author {
+	font-family: 'Cabin';
+}
+
+.comment-reply-link {
+	font-family: 'Cabin';
+}
+
+.comment-reply-title {
+	font-family: 'LibreBaskerville';
+}
+
+.comment-notes {
+	font-family: 'Cabin';
+}
+
+.comment-form-comment {
+	font-family: 'Cabin';
+}
+
+.comment-form-author {
+	font-family: 'Cabin';
+}
+
+.comment-form-email {
+	font-family: 'Cabin';
+}
+
+.form-submit {
+	font-family: 'Cabin';
+}
+
+.entry-title {
+	color: #084c8b;
 }
 
 .comment-metadata .edit-link:before {

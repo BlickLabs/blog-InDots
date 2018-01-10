@@ -94,8 +94,8 @@ function shoreditch_social_menu() {
 function shoreditch_testimonials_title( $before = '', $after = '' ) {
 	$jetpack_options = get_theme_mod( 'jetpack_testimonials' );
 	$title = esc_html__( 'Testimonials', 'shoreditch' );
-	if ( isset( $jetpack_options['page-title'] ) && '' != $jetpack_options['page-title'] ) {
-		$title = esc_html( $jetpack_options['page-title'] );
+	if ( isset( $jetpack_options['page-title indots-font-LibreBaskerville-regular'] ) && '' != $jetpack_options['page-title indots-font-LibreBaskerville-regular'] ) {
+		$title = esc_html( $jetpack_options['page-title indots-font-LibreBaskerville-regular'] );
 	}
 	echo $before . $title . $after;
 }
