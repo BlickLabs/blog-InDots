@@ -17,7 +17,7 @@ get_header(); ?>
 	endwhile; // End of the loop.
 	?>
 
-	<div class="site-content-wrapper">
+	<div class="site-content-wrapper" style="margin-top: 40px;">
 
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
