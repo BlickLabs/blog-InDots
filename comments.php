@@ -26,7 +26,7 @@ if ( post_password_required() ) {
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) : ?>
 		<div class="comments-wrapper">
-			<h2 class="comments-title">
+			<h2 class="comments-title indots-font-LibreBaskerville-regular">
 				<?php
 				printf( // WPCS: XSS OK.
 					esc_html( _nx( 'Un comentario en &ldquo;%2$s&rdquo;', '%1$s comentarios en &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'shoreditch' ) ),
