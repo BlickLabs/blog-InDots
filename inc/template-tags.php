@@ -28,9 +28,9 @@ if ( ! function_exists( 'shoreditch_entry_footer' ) ) :
  */
 function shoreditch_entry_footer() {
 	if ( 'post' === get_post_type() ) {
-		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+		$time_string = '<time class="entry-date published updated indots-font-cabin-regular" datetime="%1$s">%2$s</time>';
 		if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+			$time_string = '<time class="entry-date published indots-font-cabin-regular" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
 		}
 
 		$time_string = sprintf( $time_string,
@@ -56,7 +56,7 @@ function shoreditch_entry_footer() {
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
+		echo '<span class="comments-link indots-font-cabin-regular">';
 		comments_popup_link( esc_html__( 'Deja un comentario', 'shoreditch' ), esc_html__( '1 Comentario', 'shoreditch' ), esc_html__( '% Comentarios', 'shoreditch' ) );
 		echo '</span>';
 	}
