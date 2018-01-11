@@ -545,7 +545,7 @@ h2,
 	font-size: 32px;
 	font-size: 2rem;
 	line-height: 1.125;
-	color: #a7d4ce;
+	color: #434343;
 }
 
 h3,
@@ -555,7 +555,7 @@ h3,
 	font-size: 25px;
 	font-size: 1.5625rem;
 	line-height: 1.2;
-	color: #a7d4ce;
+	color: #434343;
 }
 
 h4,
@@ -797,7 +797,7 @@ input[type="submit"]:hover {
 .widget-footer-top-area input[type="reset"],
 .widget-footer-top-area input[type="submit"] {
 	background: #fff;
-	color: #a7d4ce;
+	color: #434343;
 }
 
 .widget-footer-top-area button:focus,
@@ -1088,7 +1088,7 @@ label {
 }
 
 .site-title a {
-	color: #a7d4ce;
+	color: #434343;
 }
 
 .site-title a:focus,
@@ -1309,7 +1309,7 @@ a:hover {
 }
 
 .main-navigation .menu-item-has-children > a:after {
-	color: #a7d4ce;
+	color: #434343;
 	content: "\f431";
 	display: none;
 	font-family: Genericons;
@@ -1506,7 +1506,7 @@ a:hover {
 .posts-navigation .nav-previous a:before,
 .comment-navigation .nav-next a:after,
 .posts-navigation .nav-next a:after {
-	color: #a7d4ce;
+	color: #434343;
 	content: "\f431";
 	display: inline-block;
 	font-family: Genericons;
@@ -2262,7 +2262,7 @@ a:hover {
 }
 
 .entry-title {
-	color: #a7d4ce;
+	color: #434343;
 }
 
 .comment-metadata .edit-link:before {
@@ -2282,7 +2282,7 @@ a:hover {
 }
 
 .comment-reply-link:after {
-	color: #a7d4ce;
+	color: #434343;
 	content: "\f432";
 	display: inline-block;
 	font-family: Genericons;
@@ -2674,7 +2674,7 @@ p video {
 
 .infinite-loader .spinner div {
 	background: currentcolor !important;
-	color: #a7d4ce;
+	color: #434343;
 }
 
 /* Infinite Wrap */
@@ -3525,7 +3525,7 @@ div#jp-relatedposts a:focus {
 
 .button.minimal {
 	background: transparent;
-	color: #a7d4ce;
+	color: #434343;
 	position: relative;
 }
 
@@ -3562,7 +3562,7 @@ div#jp-relatedposts a:focus {
 
 .widget-footer-top-area .button {
 	background: #fff;
-	color: #a7d4ce;
+	color: #434343;
 }
 
 .featured-content .hentry.has-post-thumbnail .button:focus,
@@ -3650,7 +3650,7 @@ div#jp-relatedposts a:focus {
 }
 
 .main-navigation .button.minimal a {
-	color: #a7d4ce;
+	color: #434343;
 }
 
 /*--------------------------------------------------------------
@@ -3700,7 +3700,7 @@ div#jp-relatedposts a:focus {
 
 #reply-title, .comments-title {
 	font-size: 2rem;
-	color: #a7d4ce;
+	color: #434343;
 }
 
 .author-heading .author-title {
@@ -4030,7 +4030,7 @@ aside.widget-area {
 		font-size: 40px;
 		font-size: 2rem;
 		line-height: 1.125;
-		color: #a7d4ce;
+		color: #434343;
 	}
 
 	.widget-small h2 {
