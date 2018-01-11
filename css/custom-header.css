@@ -52,7 +52,7 @@ main.site-main, aside.widget-area, .widget-title, .entry-content, h3{
 .blog-title{
   text-align: center;
   font-size: 2.25rem !important;
-  color: #a7d4ce;
+  color: #434343;
   margin-top: 3.75rem;
   width: 100%;
 }
@@ -211,7 +211,7 @@ span[for="navbar-trigger"] {
   vertical-align: middle;
 }
 .entry-title > a{
-  color: #a7d4ce !important;
+  color: #434343 !important;
 }
 
 .entry-title > a:hover{
