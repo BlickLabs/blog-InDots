@@ -37,11 +37,18 @@ main.site-main, aside.widget-area, .widget-title, .entry-content, h3{
   font-size: 15px;
   line-height: 1.33;
 }
+
 .entry-content a.read-more{
+  font-size: 16px;
+  color: #7a7c84;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.entry-content a.read-more:hover{
   font-size: 16px;
   color: #7bbaaf;
   text-decoration: underline;
-  font-weight: 700;
+  font-weight: 400;
 }
 .blog .content-area .hentry{
   padding-top: 0;
