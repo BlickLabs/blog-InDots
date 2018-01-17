@@ -26,16 +26,16 @@
     <div class="footer-right-column">
       <div class="footer-section-links-container">
         <div class="footer-column-content">
-          <a href="index.html" class="footer-link-anchor">
+          <a href="http://indots.getmore.mx/index.html" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular">INICIO</span>
           </a>
-          <a href="que-es-indots.html" class="footer-link-anchor">
+          <a href="http://indots.getmore.mx/que-es-indots.html" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular">QUÉ ES INDOTS</span>
           </a>
-          <a href="nuestros-cursos.html" class="footer-link-anchor">
+          <a href="http://indots.getmore.mx/nuestros-cursos.html" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular">NUESTROS CURSOS</span>
           </a>
-          <a href="flash-indots.html" class="footer-link-anchor">
+          <a href="http://indots.getmore.mx/flash-indots.html" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular">VIDEOS</span>
           </a>
         </div>
@@ -46,7 +46,7 @@
           <a href="http://blog.indots.getmore.mx/" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular" style="font-weight: bold; color: #735d72;">BLOG</span>
           </a>
-          <a href="contacto.html" class="footer-link-anchor">
+          <a href="http://indots.getmore.mx/contacto.html" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular"">CONTACTO</span>
           </a>
           <a href="mailto:contacto@indts.com" class="footer-link-anchor">
