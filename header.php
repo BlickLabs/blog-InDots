@@ -30,28 +30,28 @@
 
   <nav class="site-navbar">
     <div class="site-navbar__desktop-logo-container">
-      <a href="http://indots.getmore.mx/index.html">
+      <a href="http://indots.com/index.html">
         <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a href="http://indots.getmore.mx/index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo"></a>
+        <a href="http://indots.com/index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo"></a>
       </div>
       <div class="site-navbar__menu">
-        <a href="http://indots.getmore.mx/index.html" class="site-navbar__menu-link menu-link">
+        <a href="http://indots.com/index.html" class="site-navbar__menu-link menu-link">
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Inicio</span>
         </a>
-        <a href="http://indots.getmore.mx/que-es-indots.html" class="site-navbar__menu-link menu-link">
+        <a href="http://indots.com/que-es-indots.html" class="site-navbar__menu-link menu-link">
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Qué es indots</span>
         </a>
-        <a href="http://indots.getmore.mx/nuestros-cursos.html" class="site-navbar__menu-link menu-link">
+        <a href="http://indots.com/nuestros-cursos.html" class="site-navbar__menu-link menu-link">
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Nuestros cursos</span>
         </a>
-        <a href="http://indots.getmore.mx/flash-indots.html" class="site-navbar__menu-link menu-link">
+        <a href="http://indots.com/flash-indots.html" class="site-navbar__menu-link menu-link">
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Videos</span>
         </a>
@@ -63,7 +63,7 @@
           <div class="diamond show-diamond"></div>
           <span class="indots-font-cabin-regular">Blog</span>
         </a>
-        <a href="http://indots.getmore.mx/contacto.html" class="site-navbar__menu-link menu-link">
+        <a href="http://indots.com/contacto.html" class="site-navbar__menu-link menu-link">
           <div class="diamond"></div>
           <span class="indots-font-cabin-regular">Contacto</span>
         </a>
@@ -81,7 +81,7 @@
     <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
-          <a href="http://indots.getmore.mx/index.html" data-attribute="">
+          <a href="http://indots.com/index.html" data-attribute="">
             <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" data-attribute="">
           </a>
         </div>
@@ -90,16 +90,16 @@
         </div>
       </div>
       <div class="hamburger-menu-body" data-attribute="">
-        <a data-attribute="" href="http://indots.getmore.mx/index.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://indots.com/index.html" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Inicio</span>
         </a>
-        <a data-attribute="" href="http://indots.getmore.mx/que-es-indots.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://indots.com/que-es-indots.html" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Qué es indots</span>
         </a>
-        <a data-attribute="" href="http://indots.getmore.mx/nuestros-cursos.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://indots.com/nuestros-cursos.html" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Nuestros cursos</span
         </a>
-        <a data-attribute="" href="http://indots.getmore.mx/flash-indots.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://indots.com/flash-indots.html" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Videos</span>
         </a>
         <a data-attribute="" href="http://indotsverde.com" class="hamburger-menu-link">
@@ -108,7 +108,7 @@
         <a data-attribute="" href="http://blog.indots.getmore.mx/" class="hamburger-menu-link link-active-mobile">
           <span class="hamburger-text indots-font-cabin-regular">Blog</span>
         </a>
-        <a data-attribute="" href="http://indots.getmore.mx/contacto.html" class="hamburger-menu-link">
+        <a data-attribute="" href="http://indots.com/contacto.html" class="hamburger-menu-link">
           <span class="hamburger-text indots-font-cabin-regular">Contacto</span>
         </a>
       </div>
