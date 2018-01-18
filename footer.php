@@ -19,7 +19,7 @@
       <img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png'?>" alt="Logo" class="footer-logo" />
       <div class="footer-copyright-info">
         Derechos reservados,<br>
-        Indots 2017
+        Indots 2018
       </div>
     </div>
     <hr class="footer-divider">
