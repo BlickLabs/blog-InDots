@@ -30,13 +30,13 @@
 
   <nav class="site-navbar">
     <div class="site-navbar__desktop-logo-container">
-      <a href="index.html">
+      <a href="http://indots.getmore.mx/index.html">
         <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a href="index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo"></a>
+        <a href="http://indots.getmore.mx/index.html"><img src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" alt="Logo"></a>
       </div>
       <div class="site-navbar__menu">
         <a href="http://indots.getmore.mx/index.html" class="site-navbar__menu-link menu-link">
@@ -81,7 +81,7 @@
     <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
-          <a href="index.html" data-attribute="">
+          <a href="http://indots.getmore.mx/index.html" data-attribute="">
             <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logo/logo-full.png' ?>" data-attribute="">
           </a>
         </div>
