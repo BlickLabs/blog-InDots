@@ -43,7 +43,7 @@
           <a href="http://indotsverde.com" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular">INDOTS VERDE</span>
           </a>
-          <a href="http://blog.indots.getmore.mx/" class="footer-link-anchor">
+          <a href="http://blog.indots.com/" class="footer-link-anchor">
             <span class="footer-link indots-font-cabin-regular" style="font-weight: bold; color: #735d72;">BLOG</span>
           </a>
           <a href="http://indots.com/contacto.html" class="footer-link-anchor">
